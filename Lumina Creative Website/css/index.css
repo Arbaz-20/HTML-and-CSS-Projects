@@ -56,3 +56,25 @@ img{
     display: flex;
     gap: 1rem;
 }
+
+.header .main-menu a{
+    padding: 0.5rem 1rem;
+}
+
+.header .main-menu a:hover{
+    background-color: #fcf5e9;
+}
+
+.current{
+    background-color: #fcf5e9;
+    font-weight: 600;
+}
+
+
+/*media query*/
+@media (max-width:768px) {
+    .header .header-flex{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
